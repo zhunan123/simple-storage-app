@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple App Form</title>
+</head>
+<body>
+    <h2>Simple App Form</h2>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        
+        <label for="college_level">College Level:</label><br>
+        <input type="radio" id="bs" name="college_level" value="BS">
+        <label for="bs">BS</label><br>
+        <input type="radio" id="ms" name="college_level" value="MS">
+        <label for="ms">MS</label><br><br>
+        
+        <label for="classes_taken">Classes Taken:</label><br>
+        <input type="text" id="classes_taken" name="classes_taken"><br><br>
+        
+        <label for="class_expectation">Class Expectation:</label><br>
+        <textarea id="class_expectation" name="class_expectation"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
